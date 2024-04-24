@@ -1,3 +1,6 @@
+# Evaluating protein language models on designed enzymes  
+
+
 The design and discovery of enzymes to perform catalysis on an unnatural substrate is a fascinating set of challenges. The design of novel enzymes and the discovery of useful ones are related problems. In the past, it has been difficult to identify computational approaches that can efficiently use fine-grained data, such as the effects of mutations, in harmonious integration with coarse grained data, such as the results of a synthetic metagenomics pipeline where we codon-optimize and synthesize genes for a diverse array of homologous proteins from different organisms. 
 
 In this post, we'll explore the use of generative ML to tackle the tough and related problems of discovering and designing enzymes. To do this, well use a model system where we can experimentally measure kinetic constants for hundreds of mutants of a glucosidase enzyme coupled with screening data on hundreds of enzyme homologs. We'll use a generative ML approach to designing new enzymes for the desired function, and we'll use the experimental data to benchmark. 
